@@ -1,0 +1,40 @@
+﻿简易健康纪录簿Droid可以协助您记录常见的体脂计、血压器和血糖仪的数据，并且备份到您的个人网路空间。
+
+
+简易健康纪录簿Droid可以协助您记录常见的体脂计、血压器和血糖仪的数据，并且备份到您的个人网路空间。
+
+- 提供FTP、Microsoft OneDrive的网络同步机制。
+- 可利用U盘或文件复制的方式进行文件的备份和还原。
+- 另外也提供Windows桌面专用和Windows Store App专用的程序（造访网站）。
+
+本程序不支援CSV汇出功能。完整功能取得方式如下：
+(1) 请至网站（https://easyhealthrecord.firebaseapp.com）下载Windows桌面版，或是
+(2) 造访Windows Store或Windows Phone Store下载简易健康纪录簿RT。
+
+
+https://easyhealthrecord.firebaseapp.com/index.html
+woofdogtw@gmail.com
+https://easyhealthrecord.firebaseapp.com/ehr-android-privacy-en-us.html
+
+
+v2.0.0
+- 修正Microsoft OneDrive同步功能。
+- 新增本机备份与还原功能。
+- 修改界面，提供与Windows 10 App相近的体验。
+- 仅支持Android 10或以上。
+- Google Drive同步尚待修正。
+v1.0.6
+- 修正网路同步错误。
+v1.0.5
+- 修改网路同步架构。
+- 修改界面，提供与Windows 10 App相近的体验。
+v1.0.4
+- 更新时间选择样式。
+- 体重页面新增腰围。
+v1.0.3
+- 更新日期选择样式。
+- 解决屏幕旋转时重新启动的问题。
+v1.0.2
+- 支持无实体选单键的手机和平板。
+v1.0.1
+- 升级OneDrive同步机制。

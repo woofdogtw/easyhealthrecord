@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dDbLabelFileName" />
+
+        <EditText
+            android:id="@+id/filenameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dDbLabelFileName"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/descriptTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dDbLabelDescript" />
+
+        <EditText
+            android:id="@+id/descriptEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dDbLabelDescript"
+            android:inputType="text" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TextView android:id="@+id/itemName"
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="1" />
+
+    <TextView android:id="@+id/itemMin"
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="1" />
+
+    <TextView android:id="@+id/itemNew"
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="1" />
+
+    <TextView android:id="@+id/itemMax"
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="1" />
+
+    <TextView android:id="@+id/itemAvg"
+        android:layout_height="wrap_content"
+        android:layout_width="0dip"
+        android:layout_weight="1" />
+</TableRow>

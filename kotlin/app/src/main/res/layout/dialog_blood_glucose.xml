@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <TableLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/recDate" />
+
+        <DatePicker android:id="@+id/datePicker"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            tools:ignore="UnusedAttribute" />
+
+        <TimePicker android:id="@+id/timePicker"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:timePickerMode="spinner"
+            tools:ignore="UnusedAttribute" />
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/recGlucose" />
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/unitPrefix" />
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/unitGlucose" />
+
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/unitPostfix" />
+        </LinearLayout>
+
+        <EditText android:id="@+id/glucoseEditText"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="numberDecimal" />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/recMeal" />
+
+        <Spinner android:id="@+id/mealSpinner"
+            android:layout_height="wrap_content" />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/recComment" />
+
+        <EditText android:id="@+id/commentEditText"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:inputType="text" />
+    </TableLayout>
+</ScrollView>

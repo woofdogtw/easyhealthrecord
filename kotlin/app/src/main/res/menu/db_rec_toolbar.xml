@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/recAddButton"
+        android:contentDescription="@string/tooltipRecCreate"
+        android:icon="@drawable/add"
+        android:title="@string/mCreate"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <!--
+    <item
+        android:id="@+id/recRangeButton"
+        android:contentDescription="@string/tooltipRecRange"
+        android:icon="@drawable/date_range"
+        android:title="@string/mRecRange"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/recFindButton"
+        android:contentDescription="@string/tooltipRecFind"
+        android:icon="@drawable/search"
+        android:title="@string/mRecFind"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+    -->
+
+    <item
+        android:id="@+id/recSyncButton"
+        android:contentDescription="@string/tooltipRecSync"
+        android:icon="@drawable/sync"
+        android:title="@string/mRecSync"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/recStButton"
+        android:contentDescription="@string/tooltipRecSt"
+        android:icon="@drawable/analytics"
+        android:title="@string/mRecSt"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <!--
+    <item
+        android:id="@+id/recImportButton"
+        android:contentDescription="@string/tooltipRecImport"
+        android:icon="@drawable/file_open"
+        android:title="@string/mRecImport"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/recSaveAsButton"
+        android:contentDescription="@string/tooltipRecSaveAs"
+        android:icon="@drawable/save_as"
+        android:title="@string/mRecSaveAs"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/recExportCsvButton"
+        android:contentDescription="@string/tooltipRecExportCsv"
+        android:icon="@drawable/csv"
+        android:title="@string/mRecExportCsv"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="never" />
+    -->
+</menu>

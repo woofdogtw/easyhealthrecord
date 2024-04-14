@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/syncUseNoneButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dOptSyncUseNone" />
+
+            <RadioButton
+                android:id="@+id/syncUseFtpButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dOptSyncUseFtp" />
+
+            <!--
+            <RadioButton
+                android:id="@+id/syncUseFtpsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dOptSyncUseFtps" />
+
+            <RadioButton
+                android:id="@+id/syncUseSftpButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dOptSyncUseSftp" />
+
+            <RadioButton
+                android:id="@+id/syncUseGoogleButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dOptSyncUseGoogle" />
+            -->
+
+            <RadioButton
+                android:id="@+id/syncUseMsButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dOptSyncUseMs" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncFtpGroup"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncFtpHost" />
+
+        <EditText
+            android:id="@+id/syncFtpHostEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dOptSyncFtpHost"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncFtpPort" />
+
+        <EditText
+            android:id="@+id/syncFtpPortEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dOptSyncFtpPort"
+            android:inputType="number" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncFtpUser" />
+
+        <EditText
+            android:id="@+id/syncFtpUserEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dOptSyncFtpUser"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncFtpPass" />
+
+        <EditText
+            android:id="@+id/syncFtpPassEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dOptSyncFtpPass"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncDir" />
+
+        <EditText
+            android:id="@+id/syncFtpDirEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dOptSyncDir"
+            android:inputType="text" />
+
+        <!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncGoogleGroup"
+            android:textSize="24sp" />
+
+        <CheckBox
+            android:id="@+id/syncGoogleLoginRemCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncLoginRem" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncDir" />
+
+        <EditText
+            android:id="@+id/syncGoogleDirEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dOptSyncDir"
+            android:inputType="text" />
+        -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncMsGroup"
+            android:textSize="24sp" />
+
+        <CheckBox
+            android:id="@+id/syncMsLoginRemCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncLoginRem" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dOptSyncDir" />
+
+        <EditText
+            android:id="@+id/syncMsDirEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dOptSyncDir"
+            android:inputType="text" />
+    </TableLayout>
+</ScrollView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dbFileSelectButton"
+        android:contentDescription="@string/tooltipDbSelect"
+        android:icon="@drawable/event_list"
+        android:title="@string/mDbSelect"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/dbFileAddButton"
+        android:contentDescription="@string/tooltipDbCreate"
+        android:icon="@drawable/add"
+        android:title="@string/mCreate"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/dbFileRestoreButton"
+        android:contentDescription="@string/tooltipDbRestore"
+        android:icon="@drawable/folder_open"
+        android:title="@string/mDbRestore"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/dbFileDeleteButton"
+        android:contentDescription="@string/tooltipDbDeleteItems"
+        android:icon="@drawable/delete"
+        android:title="@string/mDelete"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/dbFileSaveButton"
+        android:contentDescription="@string/tooltipDbBackupItems"
+        android:icon="@drawable/save"
+        android:title="@string/mDbBackup"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/dbFileCloseButton"
+        android:contentDescription="@string/tooltipDbCancel"
+        android:icon="@drawable/close"
+        android:title="@string/mCancel"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always"
+        app:tint="?attr/colorOnSurface" />
+</menu>

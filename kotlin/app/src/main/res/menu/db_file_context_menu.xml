@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/dbFileDeleteButton"
+        android:contentDescription="@string/tooltipDbDelete"
+        android:icon="@drawable/delete"
+        android:title="@string/mDelete"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/dbFileRenameButton"
+        android:contentDescription="@string/tooltipDbRename"
+        android:icon="@drawable/edit"
+        android:title="@string/mDbRename"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/dbFileDescButton"
+        android:contentDescription="@string/tooltipDbDesc"
+        android:icon="@drawable/edit_document"
+        android:title="@string/mDbDesc"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/dbFileSaveButton"
+        android:contentDescription="@string/tooltipDbBackup"
+        android:icon="@drawable/save"
+        android:title="@string/mDbBackup"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+</menu>

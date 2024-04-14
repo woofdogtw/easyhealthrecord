@@ -1,0 +1,41 @@
+﻿EasyHealthRecord Droid can help you to record common meter values.
+
+
+EasyHealthRecord Droid can help you to record common values of body fat, blood pressure, blood glucose meters, and backup records to your network space.
+
+- FTP, Microsoft OneDrive online backup mechanism.
+- Using file copy to backup and restore files.
+- We also provides dedicated Windows desktop and Windows Store App programs (visit website).
+
+This program does not support CSV exporting. You can
+(1) Visit the website (https://easyhealthrecord.firebaseapp.com) and download Windows desktop version or
+(2) Visit Windows Store or Windows Phone Store and download EasyHealthRecord RT
+to get full functions.
+
+
+https://easyhealthrecord.firebaseapp.com/index.html
+woofdogtw@gmail.com
+https://easyhealthrecord.firebaseapp.com/ehr-android-privacy-en-us.html
+
+
+v2.0.0
+- Fix Microsoft OneDrive synchronization.
+- Add local backup/restore.
+- Modify user interface to close the experience of the Windows 10 App.
+- Only supports Android 10 or above.
+- Google Drive sync needs to be fixed.
+v1.0.6
+- Fix a bug of synchronization.
+v1.0.5
+- Refactor network synchronization architecture.
+- Modify user interface to close the experience of the Windows 10 App.
+v1.0.4
+- Update time picker style.
+- Add waist circumference for body weight.
+v1.0.3
+- Update date picker style.
+- Fix the bug of restarting app after rotating.
+v1.0.2
+- Support phones and tablets without the physical menu key.
+v1.0.1
+- Upgrade OneDrive synchronization.

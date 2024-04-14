@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/recCreateAsButton"
+        android:contentDescription="@string/tooltipRecCreateAs"
+        android:icon="@drawable/add"
+        android:title="@string/mCreateAs"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/recDeleteButton"
+        android:contentDescription="@string/tooltipRecDelete"
+        android:icon="@drawable/delete"
+        android:title="@string/mDelete"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/recModifyButton"
+        android:contentDescription="@string/tooltipRecModify"
+        android:icon="@drawable/edit"
+        android:title="@string/mModify"
+        app:iconTint="?attr/colorOnSurface"
+        app:showAsAction="always" />
+</menu>
